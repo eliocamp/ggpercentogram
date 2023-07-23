@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ggpercentogram
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+A percentogram is a histogram in which each bin has the same  number of observations and is
+drawn to have an equal area.
+
+## Installation
+
+You can install the development version of ggpercentogram like so:
+
+``` r
+remotes::install_github("eliocamp/ggpercentogram")
+```
+
+## Example
+
+
+```{r example}
+library(ggplot2)
+library(ggpercentogram)
+ggplot(diamonds, aes(carat)) +
+  geom_percentogram()
+```

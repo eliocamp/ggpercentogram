@@ -1,0 +1,18 @@
+Package: ggpercentogram
+Title: Create equal-area histograms with 'ggplot2'
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Elio",
+           family = "Campitelli",
+           role = c("cre", "aut"),
+           email = "elio.campitelli@cima.fcen.uba.ar",
+           comment = c(ORCID = "0000-0002-7742-9230"))
+Description: Creates equal-area histograms (percentograms). These are histograms 
+  in which bins are not fixed-width but instead have the same number of observations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    ggplot2,
+    rlang
