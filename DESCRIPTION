@@ -16,3 +16,5 @@ RoxygenNote: 7.2.3
 Imports: 
     ggplot2,
     rlang
+URL: https://github.com/eliocamp/ggpercentogram
+BugReports: https://github.com/eliocamp/ggpercentogram/issues
